@@ -1,0 +1,54 @@
+.search {
+    display: inline-block;
+    position: relative;
+    width: 330px;
+  }
+  
+  .search input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search button[type="submit"] {
+    background-color: #000000;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: .9s ease;
+  }
+  
+  .search button[type="submit"]:hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+  }
+  
+
+
+
+  
+  .floating-image {
+    position: relative; /* Add position: relative to enable z-index */
+    animation: floatUpDown 3s infinite alternate ease-in-out; /* Adjust the animation duration and timing function as needed */
+    transform-origin: center;
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); Add a 3D-like shadow */
+  }
+  
+  /* @keyframes floatUpDown {
+    0% {
+      transform: translateY(0) rotateX(0);
+    }
+    100% {
+      transform: translateY(-20px) rotateX(10deg);
+    }
+  }
+   */
+  
