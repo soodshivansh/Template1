@@ -6,7 +6,7 @@ function hero() {
 
   return (
     <>
-    <div className='md:pr-20 pr-6 md:pl-20 pl-6'>
+    <div className='lg:pr-20 pr-6 lg:pl-20 pl-6'>
         <div className='pl-10 pt-10 pr-10 lg:pb-10 w-full md:h-[60vh] h-[90vh] bg-gradient-to-r from-[#c5e1e8] to-[#f8dabf] rounded-3xl flex md:flex-row flex-col items-center justify-between'>
             <div className='flex flex-col text-left md:gap-3 sm:gap-5 gap-3'>
                 <h1 className='font-Ubuntu sm:text-lg text-base'>Welcome to AllState</h1>
