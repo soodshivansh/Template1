@@ -46,9 +46,9 @@ function Blogs() {
 
   return (
     <>
-      <div className='pt-14 sm:pb-20'>
+      <div className='pt-14 sm:pb-20 pb-14'>
         <div className='w-full flex items-center justify-around'>
-          <h1 className='font-Kanit text-black lg:text-5xl md:text-4xl text-2xl sm:mt-2 mt-4 font-semibold'>
+          <h1 className='font-Kanit text-black lg:text-5xl md:text-4xl text-2xl sm:mt-2 mt-4 font-medium'>
             Our Recent Projects
           </h1>
           <div className='mt-5'>
